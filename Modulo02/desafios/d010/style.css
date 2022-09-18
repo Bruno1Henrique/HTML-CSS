@@ -13,8 +13,8 @@
 
 header{
     text-align: center;
-    background: green;
-    
+    background-image: linear-gradient(to bottom, #2FA866, #063d1e);
+    padding: 20px;    
 }
 
 .titulo-principal-header{
@@ -26,36 +26,52 @@ header{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     color: white;
+    padding-top: 20px;
+    
 }
 
 nav{
-    background-color: green;
+    background-color: #063d1e;
+    box-shadow: 0 8px 6px -6px black;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
-nav > a{
+span > a{
+    padding-left: 10px;
+    padding-right: 30px;
     color: white;
     text-decoration: none;
 }
 
 body{
-    background-color: rgb(43, 161, 43);
+    background-color: #3ddc84;
 }
 
 main{
     width: 830px;
     margin: auto;
     background-color: white;
+    margin-bottom: 10px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 2px 2px 4px rgb(54, 54, 54);
+
 }
 
 /*Titulo principal do texto*/
 .titulo-principal-artigo{
     font-family: 'idroid';
     padding: 10px;
+    color: #063d1e;
 }
 
 h3{
     font-family: 'idroid';
-    padding: 10px;
+    color: #063d1e;
+    background-image: linear-gradient(to right, #83e1ad, white);
+    margin-left: 10px;
+
 }
 
 /*Ajusta os paragrafos*/
@@ -73,9 +89,35 @@ img{
     margin: 0px auto;
 }
 
+
+/*Se refere ao video*/
 iframe{
     display: block;
     margin: 0px auto;
+}
+
+/*Div do video*/
+.video{
+    background-color: #063d1e;
+    padding: 20px;
+}
+
+/*Caixa final*/
+div.aprender-mais{
+    background-color: #83E1AD;
+    margin: 20px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 2px 2px 4px rgb(54, 54, 54);
+}
+
+/*Titulo da caixa final*/
+h4{
+    background-color: #2FA866;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 #lista1{
@@ -88,4 +130,15 @@ iframe{
     padding-left: 200px;
 }
 
+li{
+    list-style: none;
+    text-decoration: underline;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+footer{
+    background-color: #063d1e;
+    text-align: center;
+    color: white;
+}
