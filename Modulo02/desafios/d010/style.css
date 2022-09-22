@@ -140,17 +140,24 @@ img{
     margin: 0px auto;
 }
 
-/*Se refere ao video*/
-iframe{
-    display: block;
-    margin: 0px auto;
-}
-
 /*Div do video*/
 .video{
     background-color: var(--cor5);
     padding: 20px;
+    position: relative;
+    padding-bottom: 59%;
 }
+
+/*Se refere ao video*/
+iframe{
+    position:absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+
 
 /*Caixa final*/
 aside{
